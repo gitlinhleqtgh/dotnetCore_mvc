@@ -1,0 +1,38 @@
+@model List<Book>;
+
+@{
+    ViewData["Title"] = "Book";
+    //List<Book> books = ViewBag.Books;
+    //List <Book> books = ViewData["Books"] as List<Book>;
+    List<Book> books = Model;
+}
+<h1>@ViewData["Title"]</h1>
+<div class="text-center">
+<table class="table table-hover">
+    <thread>
+        <th>BookId</th>
+        <th>BookName</th>
+        <th>Description</th>
+        <th>Total Page</th>
+        <th>Option</th>
+    </thread>
+    <tbody>
+        @foreach (var item in books)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+                <td>@item.TotalPage</td>
+                <td>
+                    <a href='book/edit?Id=@item.Id' class="btn btn-primary">Edit</a>
+                    <a href="book/detail?Id=@item.Id" class="btn btn-warning">Detail</a>
+                    <a href="book/delete?Id=@item.Id" class="btn btn-danger">Delete</a>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+     <a href="Book/add" class="btn btn-success">New Book (+)</a>
+</table>
+</div>

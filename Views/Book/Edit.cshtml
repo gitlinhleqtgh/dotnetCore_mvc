@@ -1,0 +1,28 @@
+@model Book;
+@{
+    ViewData["Title"] = "Edit Page";
+    Book book = Model;
+}
+<h1>Welcome to Add Student Page</h1>
+<form action="/book/SaveBook" method="post">
+<div class="form-group">
+        <label for="Id">Id</label>
+        <input type="number" class="form-control" id="Id" aria-describedby="emailHelp"
+            placeholder="Enter Name Book" name="Id" value="@book.Id">
+    </div>
+    <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="text" class="form-control" id="Name" aria-describedby="emailHelp"
+            placeholder="Enter Name Book" name="Name" value="@book.Name">
+    </div>
+    <div class="form-group">
+        <label for="Description">Description</label>
+        <input type="text" class="form-control" id="Description" placeholder="description" name="Description" value="@book.Description">
+    </div>
+    <div class="form-group">
+        <label for="TotalPage">Total Page</label>
+        <input type="text" class="form-control" id="TotalPage" placeholder="total page" name="TotalPage" value="@book.TotalPage">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

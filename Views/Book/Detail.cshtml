@@ -1,0 +1,15 @@
+@model Book;
+
+@{
+    ViewData["Title"] = "Book";
+    //List<Book> books = ViewBag.Books;
+    //List <Book> books = ViewData["Books"] as List<Book>;
+    var book = Model;
+}
+
+<div class="table table-hover">
+    <h1>@book.Name</h1>
+    <p>@book.Description</p>
+    <h2>@book.TotalPage page</h2>
+    <a href="/Book" class="btn btn-success">Back</a>
+</div>

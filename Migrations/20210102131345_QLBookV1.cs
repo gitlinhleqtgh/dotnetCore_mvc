@@ -2,7 +2,7 @@
 
 namespace ManagementBook.Migrations
 {
-    public partial class BookMvcVersion1 : Migration
+    public partial class QLBookV1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -14,7 +14,8 @@ namespace ManagementBook.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    TotalPage = table.Column<int>(type: "int", nullable: false)
+                    TotalPage = table.Column<int>(type: "int", nullable: false),
+                    ImagePath = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {

@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\ASPNET core\\ManagementBook\\ManagementBook.csproj",
+  "FilePath": "d:\\ASPNET core\\3120217097_levanlinh\\ManagementBook.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14392,58 +14392,63 @@
   "RootNamespace": "ManagementBook",
   "Documents": [
     {
-      "FilePath": "d:\\ASPNET core\\ManagementBook\\Views\\Book\\Add.cshtml",
+      "FilePath": "d:\\ASPNET core\\3120217097_levanlinh\\Views\\Book\\Add.cshtml",
       "TargetPath": "Views\\Book\\Add.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\ASPNET core\\ManagementBook\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "d:\\ASPNET core\\3120217097_levanlinh\\Views\\Store\\Index.cshtml",
+      "TargetPath": "Views\\Store\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\ASPNET core\\ManagementBook\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ASPNET core\\ManagementBook\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ASPNET core\\ManagementBook\\Views\\Book\\Edit.cshtml",
-      "TargetPath": "Views\\Book\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ASPNET core\\ManagementBook\\Views\\Book\\Detail.cshtml",
-      "TargetPath": "Views\\Book\\Detail.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ASPNET core\\ManagementBook\\Views\\Book\\index.cshtml",
-      "TargetPath": "Views\\Book\\index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ASPNET core\\ManagementBook\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ASPNET core\\ManagementBook\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\ASPNET core\\ManagementBook\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "d:\\ASPNET core\\3120217097_levanlinh\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\ASPNET core\\ManagementBook\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "d:\\ASPNET core\\3120217097_levanlinh\\Views\\Book\\index.cshtml",
+      "TargetPath": "Views\\Book\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\ASPNET core\\3120217097_levanlinh\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\ASPNET core\\3120217097_levanlinh\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\ASPNET core\\3120217097_levanlinh\\Views\\Book\\Edit.cshtml",
+      "TargetPath": "Views\\Book\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\ASPNET core\\3120217097_levanlinh\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\ASPNET core\\3120217097_levanlinh\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\ASPNET core\\3120217097_levanlinh\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\ASPNET core\\3120217097_levanlinh\\Views\\Book\\Detail.cshtml",
+      "TargetPath": "Views\\Book\\Detail.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\ASPNET core\\3120217097_levanlinh\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     }
   ],

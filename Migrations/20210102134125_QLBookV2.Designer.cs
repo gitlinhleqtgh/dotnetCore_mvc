@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ManagementBook.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20201223090440_BookMvcVersion1")]
-    partial class BookMvcVersion1
+    [Migration("20210102134125_QLBookV2")]
+    partial class QLBookV2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -30,8 +30,14 @@ namespace ManagementBook.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ImagePath")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<float>("Price")
+                        .HasColumnType("real");
 
                     b.Property<int>("TotalPage")
                         .HasColumnType("int");

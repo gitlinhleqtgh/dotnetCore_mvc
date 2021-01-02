@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r7t/qmoWuohlMMVKZQBLU5wsrc7iJJ6tRoh5h0HexJnUVl1VX6ZCr7T7rD4o7wozcnkXfEtbvS4ujcsimcYM3g==",
+  "dgSpecHash": "PET9gohcoVmmGGDT6RyD4zv0cT6++cDFuiBs1sSZq05oskRXPxb3fA19v7WLezklM1jQJeL7I3WLmg9z13KBfg==",
   "success": true,
-  "projectFilePath": "D:\\ASPNET core\\ManagementBook\\ManagementBook.csproj",
+  "projectFilePath": "D:\\ASPNET core\\3120217097_levanlinh\\ManagementBook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

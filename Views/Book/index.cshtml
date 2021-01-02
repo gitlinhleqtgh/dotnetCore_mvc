@@ -13,7 +13,7 @@
         <th>BookId</th>
         <th>BookName</th>
         <th>Description</th>
-        <th>Total Page</th>
+        <th>Price</th>
         <th>Option</th>
     </thread>
     <tbody>
@@ -23,13 +23,13 @@
                 <td>@item.Id</td>
                 <td>@item.Name</td>
                 <td>@item.Description</td>
-                <td>@item.TotalPage</td>
+                <td>@item.Price $</td>
+                
                 <td>
                     <a href='book/edit?Id=@item.Id' class="btn btn-primary">Edit</a>
                     <a href="book/detail?Id=@item.Id" class="btn btn-warning">Detail</a>
                     <a href="book/delete?Id=@item.Id" class="btn btn-danger">Delete</a>
                 </td>
-
             </tr>
         }
     </tbody>

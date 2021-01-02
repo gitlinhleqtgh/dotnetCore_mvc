@@ -1,0 +1,43 @@
+@model List<Book>;
+
+@{
+    ViewData["Title"] = "Book";
+    //List<Book> books = ViewBag.Books;
+    //List <Book> books = ViewData["Books"] as List<Book>;
+    List<Book> books = Model;
+}
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <aside id='notice'>
+    </aside>
+    <h1 style="font-family: 'Courier New', Courier, monospace;">
+
+        <ul class="grid-container">
+            @foreach (var item in books)
+            {
+                <li id="id_product" class="grid-item">
+                    <div class="card">
+                        <img class="image" src="@item.ImagePath" alt="image">
+                        <h2 class="title">@item.Name </h2>
+                        <p class="description">
+                            @item.Description
+                        </p>
+
+                        <div class="price">
+                            @item.Price $
+                        </div>
+                        <div id="store_btn">
+                        <div>
+                        <a id="btn_store" href="book/detail?Id=@item.Id" class="btn btn-warning">Detail</a>
+                        </div>
+                        <div>
+                        <a id="btn_store" href="" class="btn btn-danger">Add to Cart</a>
+                   </div>
+                   </div>
+                    </div>
+                </li>
+            }
+        </ul>
+</div>
+</div>

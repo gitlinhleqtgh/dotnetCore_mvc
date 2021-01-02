@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASPNET core\\ManagementBook\\ManagementBook.csproj": {}
+    "D:\\ASPNET core\\3120217097_levanlinh\\ManagementBook.csproj": {}
   },
   "projects": {
-    "D:\\ASPNET core\\ManagementBook\\ManagementBook.csproj": {
+    "D:\\ASPNET core\\3120217097_levanlinh\\ManagementBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASPNET core\\ManagementBook\\ManagementBook.csproj",
+        "projectUniqueName": "D:\\ASPNET core\\3120217097_levanlinh\\ManagementBook.csproj",
         "projectName": "ManagementBook",
-        "projectPath": "D:\\ASPNET core\\ManagementBook\\ManagementBook.csproj",
+        "projectPath": "D:\\ASPNET core\\3120217097_levanlinh\\ManagementBook.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\ASPNET core\\ManagementBook\\obj\\",
+        "outputPath": "D:\\ASPNET core\\3120217097_levanlinh\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -11,5 +11,7 @@ namespace ManagementBook.Models
         public String Name { get; set; }
         public String Description { get; set; }
         public int TotalPage { get; set; }
+        public String ImagePath{get; set;}
+        public float Price{get;set;}
     }
 }

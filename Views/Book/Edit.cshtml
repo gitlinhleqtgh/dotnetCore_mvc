@@ -3,7 +3,7 @@
     ViewData["Title"] = "Edit Page";
     Book book = Model;
 }
-<h1>Welcome to Add Student Page</h1>
+<h1>Welcome to Edit Book Page</h1>
 <form action="/book/SaveBook" method="post">
 <div class="form-group">
         <label for="Id">Id</label>
@@ -22,6 +22,14 @@
     <div class="form-group">
         <label for="TotalPage">Total Page</label>
         <input type="text" class="form-control" id="TotalPage" placeholder="total page" name="TotalPage" value="@book.TotalPage">
+    </div>
+    <div class="form-group">
+        <label for="ImagePath">Total Page</label>
+        <input type="text" class="form-control" id="ImagePath" placeholder="image path" name="ImagePath" value="@book.ImagePath">
+    </div>
+    <div class="form-group">
+        <label for="Price">Total Page</label>
+        <input type="text" class="form-control" id="Price" placeholder="price" name="Price" value="@book.Price">
     </div>
     
     <button type="submit" class="btn btn-primary">Submit</button>

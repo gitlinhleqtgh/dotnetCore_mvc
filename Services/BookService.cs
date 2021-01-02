@@ -19,8 +19,6 @@ namespace ManagementBook.Services
             _context.SaveChanges();
             return bookInput;
         }
-
-
         public bool DeleteBook(int Id)
         {
             var book = GetBookById(Id);
@@ -47,6 +45,8 @@ namespace ManagementBook.Services
             book.Name = bookInput.Name;
             book.Description = bookInput.Description;
             book.TotalPage = bookInput.TotalPage;
+            book.ImagePath = bookInput.ImagePath;
+            book.Price = bookInput.Price;
             _context.SaveChanges();
             return book;
         }

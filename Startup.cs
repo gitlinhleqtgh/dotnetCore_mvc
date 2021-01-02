@@ -28,7 +28,7 @@ namespace ManagementBook
         {
             services.AddControllersWithViews();
             services.AddDbContext<DataContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("BookMvcDb")));
+                options.UseSqlServer(Configuration.GetConnectionString("QLBook")));
 
            // services.AddSingleton<IBookService, BookService>();
             services.AddScoped<IBookService, BookService>();
@@ -59,7 +59,7 @@ namespace ManagementBook
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Store}/{action=Index}/{id?}");
             });
         }
     }
